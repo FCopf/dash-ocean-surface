@@ -249,7 +249,7 @@ app.layout = dbc.Container([
             )
         ], width="auto"),
         dbc.Col([
-            html.H1("Estimando a Proporção de Água na Superfície da Terra", className="heading-page")
+            html.H1("Estimando a Proporção da Superfície Oceânica", className="heading-page")
         ], width=True)
     ], className="bg-header-page align-items-center"),
 
@@ -291,7 +291,6 @@ app.layout = dbc.Container([
                         min=1,
                         max=1000,
                         step=1,
-                        #value=,
                         placeholder='Selecione o número entre 1 e 1000.',
                         className="mb-4 dark-input",
                     ),

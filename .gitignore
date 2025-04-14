@@ -1,0 +1,11 @@
+# Ignora todos os arquivos ocultos e diretórios ocultos
+.*
+!.gitignore
+
+# Outros arquivos comuns a serem ignorados
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+venv/

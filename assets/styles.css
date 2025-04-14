@@ -1,0 +1,119 @@
+body {
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF;            /* Texto branco */
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+    padding: 20px;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.btn {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 0.2px solid #8e8e8e;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    border: 0.2px solid #FFFFFF;
+}
+
+.sidebar-custom {
+    background-color: #262730;
+    height: 80vh;
+    color: white;
+    padding: 10px;
+}
+
+.scrollable-table {
+    max-height: 450px; /* approx. 10 rows */
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+}
+
+/* ========== REUSABLE CLASSES FOR OCEAN_SURFACE ========== */
+
+/* For the main container background (instead of inline style) */
+.bg-black {
+    background-color: #000000 !important;
+}
+
+/* For the heading in ocean_surface page (instead of inline font-weight + margin) */
+.heading-page {
+    font-weight: bold;
+    text-align: center; /* used to replace className="text-center" */
+    margin-top: 2rem;   /* same as "my-4" top spacing */
+    margin-bottom: 2rem;
+}
+
+/* Replaces inline "background-color: #262730" on Row */
+.bg-header-page {
+    background-color: #262730;
+}
+
+/* Replaces inline input styling for the coordinate input */
+.dark-input {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+}
+
+/* Card styling for dark theme (instead of background-color + color inline) */
+.card-dark-custom {
+    background-color: #172d43; /* main background for the card body */
+    color: #FFFFFF;           /* text color */
+    border: none;             /* optional: remove border if desired */
+}
+
+/* CardHeader styling (instead of inline background + color) */
+.card-header-dark {
+    background-color: #172d43;
+    color: #FFFFFF;
+    border-bottom: 1px solid #444; /* optional small bottom border */
+}
+
+/* Small card width (replaces "style={'width': '12rem'}") */
+.small-card {
+    height: 25rem;
+    width: 15rem;
+}
+
+.card-title-custom {
+    font-size: 1.1rem;
+}
+
+.card-text {
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.heading-home {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.3rem; /* Optional: Adjust font size */
+    font-weight: bold; /* Optional: Add bold styling */
+}
+
+/* For any text that needs to be white (like "Total de Pontos") */
+.text-white {
+    color: #FFFFFF !important;
+}
+
+.dark-input::placeholder {
+    color: #FFFFFF !important;
+    opacity: 0.6; /* garante que o branco fique visível */
+    font-size: 0.8rem; /* Optional: Adjust font size */
+}
